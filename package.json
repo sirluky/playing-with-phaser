@@ -1,0 +1,15 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch index.html"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.1.2"
+  },
+  "dependencies": {
+    "phaser": "^3.17.0"
+  }
+}
