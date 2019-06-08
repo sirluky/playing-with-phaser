@@ -15,11 +15,30 @@ export class Mario extends Phaser.Scene {
     this.load.audio('jump', 'jump.mp3');
     this.load.audio('walk', 'walk.mp3');
     this.load.audio('bg', 'mario.mp3');
+    this.load.atlas('snek', 'snek2.png', 'snek2.json');
 
     // this.load.atlas('mario');
   }
 
   create() {
+    this.anims.create({
+      key: 'jumpSnek',
+      frames: this.anims.generateFrameNames('snek', {
+        prefix: 'snek/jump/',
+        suffix: '.png',
+        start: 0,
+        end: 4,
+        zeroPad: 0,
+      }),
+      frameRate: 15,
+      yoyo: true,
+      repeat: -1,
+    });
+
+    let snek = this.add.sprite(300, 100, 'snek');
+    snek = this.physics.add.existing(snek, false);
+    snek.play('jumpSnek');
+    snek.body.setCollideWorldBounds(true, 0, 0.2);
     this.sound.add('jump', {
       mute: false,
       volume: 1,
@@ -41,7 +60,6 @@ export class Mario extends Phaser.Scene {
       start: 3,
       end: 5,
     });
-    this.sound.play('bg', { volume: 0.7, loop: -1, delay: 1 });
 
     var config = {
       key: 'stand',
@@ -90,6 +108,7 @@ export class Mario extends Phaser.Scene {
     this.miRIGHT = this.input.keyboard.addKey('d');
     this.miDOWN = this.input.keyboard.addKey('s');
     this.miLEFT = this.input.keyboard.addKey('a');
+    this.sound.play('bg', { volume: 0.7, loop: -1, delay: 1 });
   }
   update() {
     this.mario.body.setVelocityX(0);

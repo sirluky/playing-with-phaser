@@ -1,0 +1,207 @@
+{
+  "frames": {
+    "snek/jump/1.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 33
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 29,
+        "w": 26,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/jump/2.png": {
+      "frame": {
+        "x": 0,
+        "y": 33,
+        "w": 27,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 26,
+        "w": 27,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/walk/2.png": {
+      "frame": {
+        "x": 26,
+        "y": 0,
+        "w": 26,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 33,
+        "w": 26,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/jump/3.png": {
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 28,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 25,
+        "w": 28,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/walk/0.png": {
+      "frame": {
+        "x": 27,
+        "y": 31,
+        "w": 27,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 33,
+        "w": 27,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/jump/4.png": {
+      "frame": {
+        "x": 52,
+        "y": 0,
+        "w": 28,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 26,
+        "w": 28,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/jump/0.png": {
+      "frame": {
+        "x": 0,
+        "y": 94,
+        "w": 27,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 36,
+        "w": 27,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "snek/walk/1.png": {
+      "frame": {
+        "x": 0,
+        "y": 122,
+        "w": 27,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 36,
+        "w": 27,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.5.9",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 80,
+      "h": 150
+    },
+    "scale": 1
+  }
+}
