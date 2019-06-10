@@ -5,9 +5,10 @@ class Menu extends Phaser.Scene {
   constructor() {
     super('MENU');
   }
-  // init() {
-  //   console.log('SimpleScene#init');
-  // }
+  init() {
+    this.sound.pauseOnBlur = true;
+    this.sound.volume = 0.2;
+  }
 
   preload() {
     this.load.image('play', 'play.png');
